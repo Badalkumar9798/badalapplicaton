@@ -1,0 +1,30 @@
+### IntelliJ IDEA ###
+out/
+!**/src/Abstraction1.main/**/out/
+!**/src/Abstraction1.test/**/out/
+.kotlin
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/Abstraction1.main/**/bin/
+!**/src/Abstraction1.test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store

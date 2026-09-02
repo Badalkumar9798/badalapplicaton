@@ -1,0 +1,31 @@
+//Reverse an Array without using two pointer
+
+public class ReverseArray {
+    public static void main(String[] args) {
+        int[] arr = {1,2,3,4,5,6};
+
+        int n = arr.length;
+        int [] ans = new int [n];
+
+        //print original array
+        System.out.print("Before Reverse :- ");
+        for(int i =0 ; i<arr.length;i++){
+            System.out.print(arr[i] + " ");
+        }
+
+        //traverse original array in reverse direction
+
+        //for(int i = n-1;i>=0;i--){
+          //  ans[j++] = arr[i];
+        int i = n-1,j=0;
+        while (i>=0){
+            ans[j++] = arr[i--];
+        }
+        //print reversed array
+        System.out.print("\nAfter Reversed :- ");
+        for( i =0;i<ans.length;i++){
+            System.out.print(ans[i] + " ");
+        }
+    }
+
+}
