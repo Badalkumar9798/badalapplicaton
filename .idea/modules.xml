@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Collection_frameWork/Collection_frameWork.iml" filepath="$PROJECT_DIR$/Collection_frameWork/Collection_frameWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinkList/LinkList.iml" filepath="$PROJECT_DIR$/LinkList/LinkList.iml" />
       <module fileurl="file://$PROJECT_DIR$/arrays/arrays.iml" filepath="$PROJECT_DIR$/arrays/arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/badalapplicaton.iml" filepath="$PROJECT_DIR$/badalapplicaton.iml" />
     </modules>
