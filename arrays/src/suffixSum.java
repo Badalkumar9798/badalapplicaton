@@ -28,7 +28,7 @@ public class suffixSum {
             arr[i] = sc.nextInt();
         }
         int[] suffix = SuffixSum(arr);
-        System.out.println("Suffix sum array :- ");
+        System.out.println    ("Suffix sum array :- ");
 
         for(int i =0;i<n;i++){
             System.out.print(suffix[i] + " ");
